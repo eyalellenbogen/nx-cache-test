@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { NxWelcomeComponent } from './nx-welcome.component';
+import { stuff } from '@my-lib/test';
 
 @Component({
   standalone: true,
@@ -10,5 +11,5 @@ import { NxWelcomeComponent } from './nx-welcome.component';
   styleUrl: './app.component.scss',
 })
 export class AppComponent {
-  title = 'nx-cache-test';
+  title = stuff;
 }
